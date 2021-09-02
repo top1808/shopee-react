@@ -1,0 +1,25 @@
+.shopee-mall_slider {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.shopee-mall_slider-img {
+    margin: 8px;
+    float: left;
+    border-radius: 4px;
+    display:none;
+}
+
+.shopee-mall_slider-img.active {
+    display: block;
+}
+
+.dot_container {
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    top: 93%;
+}

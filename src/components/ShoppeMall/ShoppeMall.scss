@@ -1,0 +1,155 @@
+.shoppe-mall {
+    background-color: var(--white-color);
+}
+
+.shoppe-mall_header {
+    font-size: 2rem;
+    padding: 16px 20px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;    
+    border-bottom: 1px solid #ccc;
+    color: var(--mall-color);
+}
+
+.shoppe-mall_header-wrap {
+    display: flex;
+    align-items: center;
+}
+
+.shoppe-mall_header-link {
+    border-right: 1px solid #ccc;
+    padding-right: 12px;
+    font-weight: 700;
+}
+
+.shoppe-mall_header-des-wrap {
+    display: flex;
+    color: var(--text-color)
+}
+
+.shoppe-mall_header-des {
+    padding: 0 12px;
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+
+.shoppe-mall_header-more {
+    font-size: 1.5rem;
+}
+
+.shoppe-mall_header-more-icon {
+    color: var(--white-color);
+    margin-left: 8px;
+    background-color: var(--mall-color);
+    border-radius: 50%;
+    padding: 4px 6px;
+}
+
+.shoppe-mall_body {
+    height: 470px;
+}
+
+.shoppe-mall-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.shoppe-mall-item {
+    position: relative;
+    width: 16.666667%;
+    height: 100%;  
+    text-align: center;
+    padding: 8px;
+}
+
+.shoppe-mall-item:hover {
+    cursor: pointer;
+}
+
+.shoppe-mall-item--img {
+    width: 173px;
+}
+.shoppe-mall-item--price {
+    font-size: 1.8rem;
+    font-weight: 500;
+    color: var(--primary-color);
+}
+
+.shoppe-mall-item--quantity {
+    background-color: var(--primary-color);
+    opacity: 0.4;
+    border-radius: 16px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    color: var(--white-color);
+    font-size: 1.2rem;
+}
+
+.shoppe-mall-item--sale-off {
+    position: absolute;
+    background-color: rgba(255,212,36,.8);
+    right: 1px;
+    top: 1px;
+    height: 50px;
+    width: 54px;
+    text-align: center;
+    padding: 3px 2px;
+    font-size: 1.6rem;
+    line-height: 2rem;
+    font-weight: 500;
+    color: var(--white-color)
+}
+
+.shoppe-mall-item--sale-off div {
+    color: var(--primary-color);
+}
+
+.shoppe-mall-item--sale-off::after {
+    content: " ";
+    position: absolute;
+    top: 100%;
+    left: 0;
+    border-width: 8px 27px;
+    border-style: solid;
+    border-top: transparent;
+    border-color: transparent rgba(255,212,36,.8) transparent rgba(255,212,36,.8);
+}
+
+.shopee-mall-btn {
+    position: absolute;
+    background-color: var(--white-color);
+    font-size: 1.4rem;
+    padding: 2px 8px;
+    border-radius: 50%;
+    top: 47%;
+    box-shadow: 0 0 1px 2px rgba(159, 156, 156, 0.1);
+    --growth-from: 100%;
+    cursor: pointer;
+}
+
+.shopee-mall-btn:hover {
+    background-color: #f5f5f5;
+
+}
+
+.shopee-mall-btn.prev {
+    left: -24px;
+}
+
+.shopee-mall-btn.next {
+    right: -10px;
+}
+
+.shopee-mall_product:hover .shopee-mall-btn {
+    animation: growth 0.2s ease-in-out forwards;
+    --growth-to: 200%;
+}
+
+
+

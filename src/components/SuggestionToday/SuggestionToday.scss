@@ -1,0 +1,53 @@
+.suggestion-today {
+    padding-bottom: 80px;
+    position: relative;
+}
+
+.suggestion-today_header {
+    position: relative;
+    background-color: var(--white-color);
+    display: flex;
+    align-items: center;
+    font-size: 2rem;
+    color: var(--primary-color);
+    font-weight: 600;
+    box-shadow: 0 2px 1px rgba(0, 0, 0, 0.2)
+}
+
+.suggestion-today_header-tab {
+    margin-left: 40px;
+    padding: 16px 0;
+    cursor: pointer;
+    user-select: none;
+}
+
+.suggestion-today_header-img {
+    height: 20px;
+    position: absolute;
+    top: 36%;
+    margin-left: 40px;
+}
+
+.suggestion-today_header-line {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 220px;
+    height: 4px;
+    background-color: var(--primary-color);
+    transition: all ease-in 0.2s;
+}
+
+.btn-more {
+    margin-left: 35%;
+    width: 400px;
+    border: 1px solid #ccc;
+}
+
+.btn-more:hover {
+    background-color: rgba(217, 212, 212, 0.5)
+}
+
+
+

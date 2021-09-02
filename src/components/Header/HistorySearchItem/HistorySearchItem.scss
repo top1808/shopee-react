@@ -1,0 +1,30 @@
+
+
+.header-search-item {
+    height: 36px;
+    padding: 0 12px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-search-item:hover {
+    background-color: rgb(244, 240, 240);
+}
+
+.header-search-list a {
+    text-decoration: none;
+    color: var(--text-color);
+    line-height: 36px;
+    display: block;
+    font-size: 1.4rem;
+}
+
+.header-search-item div {
+    font-size: 2rem;
+}
+
+.header-search-item div:hover {
+    color: var(--primary-color);
+}

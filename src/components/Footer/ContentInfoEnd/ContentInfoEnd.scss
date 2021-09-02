@@ -1,0 +1,35 @@
+.content-info-end_header-list {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-info-end_header-item {
+    font-size: 1.2rem;
+    padding: 0 32px;
+    border-right: 1px solid #ccc;
+}
+
+.content-info-end_header-item:last-child {
+    border-right: none;
+}
+
+.content-info-end_img {
+    height:100px;
+    width:500px;
+    margin-left: 28%;
+    margin-top: 40px;
+}
+
+.content-info-end_wrap {
+    font-size: 1.2rem;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.content-info-end_wrap div {
+    margin-top: 8px;
+}

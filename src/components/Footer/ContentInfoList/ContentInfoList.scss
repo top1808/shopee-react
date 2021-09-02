@@ -1,0 +1,33 @@
+
+.content-info_category-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.content-info_category-item {
+    margin-top: 12px;
+    width: 20%;
+}
+
+.content-info_category-item-header-link {
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: var(--text-color)
+}
+
+.content-info_category-item-body {
+    margin-top: 4px;
+}
+
+.content-info_category-item-body-link {
+    padding: 0 3px;
+    font-size: 1.1rem;
+    border-right: 1px solid #333;
+    display: inline-block;
+    margin-top: 3px;
+
+}
+
+
+

@@ -1,0 +1,25 @@
+// Product item
+
+.product-item {
+    margin-top: 16px;
+    cursor: pointer;
+    width: 12.5%;
+}
+
+.product-item-link {
+    text-decoration: none;
+}
+
+.product-item-img {
+    width: 100%;
+}
+
+.product-item-des {
+    color: var(--mall-color);
+    font-size: 1.8rem;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    margin-top: -36px;
+}

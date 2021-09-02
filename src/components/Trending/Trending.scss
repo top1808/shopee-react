@@ -1,0 +1,130 @@
+.trending {
+    background-color: var(--white-color);
+}
+
+.trending_header {
+    font-size: 2rem;
+    color: var(--text-color);
+    padding: 16px 20px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;    
+    border-bottom: 1px solid #ccc;
+}
+
+.trending_header-wrap {
+
+}
+
+.trending_header-more {
+    font-size: 1.5rem;
+    color: var(--primary-color);
+    cursor: pointer;
+    user-select: none;
+}
+
+.trending_header-more-icon {
+    margin-right: 4px;
+    top: 5px;
+}
+
+.trending_body {
+
+}
+
+.trending-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: none;
+}
+
+.trending-list.active {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.trending-item {
+    width: 20%;
+    height: 100%;  
+    text-align: center;
+    padding: 8px 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-right: 1px solid #ccc;
+    animation: fadeIn ease 1s;
+}
+
+.trending-item:hover {
+    cursor: pointer;
+}
+
+.trending-item-content {
+    text-align: left;
+}
+
+.trending-item-name {
+    font-size: 1.4rem;
+    font-weight: 500;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp:1 ;
+    overflow: hidden;
+}
+
+.trending-item-quantity {
+    font-size: 1.2rem;
+}
+
+.trending-item-img{
+    width: 100px;
+}
+
+.trending-item--price {
+    font-size: 1.8rem;
+    font-weight: 500;
+    color: var(--primary-color);
+}
+
+.trending-item--quantity {
+    background-color: var(--primary-color);
+    opacity: 0.4;
+    border-radius: 16px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    color: var(--white-color);
+    font-size: 1.2rem;
+}
+
+.trending-item--sale-off {
+    position: absolute;
+    background-color: rgba(255,212,36,.8);
+    right: 1px;
+    top: 1px;
+    height: 50px;
+    width: 54px;
+    text-align: center;
+    padding: 3px 2px;
+    font-size: 1.6rem;
+    line-height: 2rem;
+    font-weight: 500;
+    color: var(--white-color)
+}
+
+.trending-item--sale-off div {
+    color: var(--primary-color);
+}
+
+.trending-item--sale-off::after {
+    content: " ";
+    position: absolute;
+    top: 100%;
+    left: 0;
+    border-width: 8px 27px;
+    border-style: solid;
+    border-top: transparent;
+    border-color: transparent rgba(255,212,36,.8) transparent rgba(255,212,36,.8);
+}

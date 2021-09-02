@@ -1,0 +1,233 @@
+.product-info {
+
+}
+
+.product-info_name {
+    font-size: 2.4rem;
+    font-weight: 600;
+    line-height:3rem;
+}
+
+.product-info_rate {
+    font-size: 1.4rem;  
+    margin-top: 12px;
+    display:flex;
+    align-items: center;
+    justify-content: flex-start;
+
+}
+
+.product-info_rate-star {
+    color: var(--primary-color);
+    display: flex;
+    align-items: center;
+}
+
+.product-info_rate-star span {
+    text-decoration: underline;
+    margin-right: 8px;
+    font-size: 1.8rem;
+}
+
+.product-info_rate-quantity {
+    color: #666;
+    padding: 0 12px;
+    margin: 0 12px;
+    border-right: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+
+}
+
+.product-info_rate-quantity span {
+    text-decoration: underline;
+    margin-right: 8px;
+    color: var(--text-color);
+    font-size: 1.8rem;
+}
+
+.product-info_sale-quantity {
+    color: #666;
+}
+
+.product-info_sale-quantity span {
+    color: var(--text-color);
+    font-size: 1.8rem;
+    margin-right: 4px;
+}
+
+.product-info_price {
+    background-color: #fafafa;
+    border-radius: 2px;
+    padding: 16px 20px;
+    margin: 12px 0;
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+}
+
+.product-info_price-old {
+    color: #888;
+    text-decoration: line-through;
+    font-size: 1.6rem;
+}
+
+.product-info_price-current {
+    font-size: 3rem;    
+    color: var(--primary-color);
+    margin: 0 12px;
+}
+
+.product-info_price-sale-off {
+    background-color: var(--primary-color);
+    color: var(--white-color);
+    font-size: 1.2rem;
+    font-weight: 700;
+    padding: 0 4px;
+    border-radius: 2px;
+}
+
+.product-info_shipping {
+    font-size: 1.4rem;
+    line-height: 2.8rem;
+    font-weight: 500;
+    display: flex;
+    color: #666;
+}
+
+.product-info_shipping_wrap {
+    display: flex;
+    margin-left: 32px;
+    position: relative;
+}
+
+.product-info_shipping_icon {
+    position: relative;
+    top: 8px;
+    margin-right: 4px;
+}
+
+.product-info_shipping-place {
+
+}
+
+.product-info_shipping-place--option {
+    border:none;
+    margin-left: 12px;
+}
+
+.product-info_shipping-price {
+
+}
+
+.product-info_shipping-price--option {
+    border:none;
+    margin-left: 12px;
+}
+
+.product-info_size {
+    font-size: 1.4rem;  
+    color: #666;
+    display: flex;
+    align-self: center;
+    margin-top: 12px;
+}
+
+.product-info_size--option-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 32px;
+}
+
+.product-info_size--option {
+    border: 1px solid #ccc;
+    color: var(--text-color);
+    padding: 4px 12px;
+    margin: 4px 8px;
+}
+
+.product-info_size--option.active {
+    color: var(--primary-color);
+    border-color: var(--primary-color);
+}
+
+.product-info_size--option:hover {
+    color: var(--primary-color);
+    border-color: var(--primary-color);
+    cursor: pointer;
+}
+
+.product-info_quantity {
+    font-size: 1.4rem;
+    color: #666;
+    display: flex;
+    align-items: center;
+    margin-top: 24px;
+}
+
+.product-info_quantity-wrap {
+    margin-left: 52px;
+}
+
+.product-info_quantity-icon {
+    border: 1px solid #ccc;
+    padding: 5px ;
+    cursor: pointer;
+}
+
+.product-info_quantity-input {
+    border: 1px solid #ccc;
+    width: 40px;
+    height: 25px;
+    text-align: center;
+}
+
+.product-info_btn-wrap {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.product-info_btn {
+    margin: 0 12px;
+    padding: 12px 0;
+    min-width: 180px;
+    text-align: center;
+    font-size: 1.6rem;
+    cursor: pointer;
+    user-select: none;
+}
+
+.product-info_btn:hover {
+    opacity: 0.8;
+}
+
+.product-info_btn.add {
+    color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+    background-color: #FFEEEA;
+}
+
+.product-info_btn.buy {
+    background-color: var(--primary-color);
+    color: var(--white-color);
+}
+
+.product-info_des {
+    display: flex;
+    align-items: center;
+    padding: 32px 0;
+    font-size: 1.4rem;
+    color: var(--text-color);
+    font-weight: 500;
+    border-top: 1px solid #ccc;
+    margin-top: 32px;
+}
+
+.product-info_des img {
+    width: 20px;
+}
+
+.product-info_des span {
+    margin-left: 16px;
+    color: #666;
+}

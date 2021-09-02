@@ -1,0 +1,15 @@
+// product list
+.products-list_wrap {
+    overflow: hidden;
+    height: 470px;
+    position: relative;
+}
+
+.product-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 200%;
+    transition: all 500ms ease 0s;
+}
+
